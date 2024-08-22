@@ -6,13 +6,9 @@
 #    By: mzhang <mzhang@student.hive.fi>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/22 10:02:04 by mzhang            #+#    #+#              #
-#    Updated: 2024/08/22 10:02:06 by mzhang           ###   ########.fr        #
+#    Updated: 2024/08/22 10:46:47 by mzhang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
-#.c: files in C language
-#.o: files transformed into machine language(binary)
-#Compilation Process: Check README.md
 
 CC = cc
 AR = ar rcs

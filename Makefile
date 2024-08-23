@@ -6,17 +6,16 @@
 #    By: mzhang <mzhang@student.hive.fi>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/22 10:02:04 by mzhang            #+#    #+#              #
-#    Updated: 2024/08/22 11:42:20 by mzhang           ###   ########.fr        #
+#    Updated: 2024/08/23 14:18:28 by mzhang           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = cc
 AR = ar rcs
-CFLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror
 SRCS = ft_printf.c ft_print_character.c ft_print_digit.c ft_print_pointer.c
 OBJS = $(SRCS:.c=.o)
 NAME = libftprintf.a
-TEST = test
 
 all: $(NAME)
 
